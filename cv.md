@@ -120,6 +120,7 @@ E-mail: grishinpavela@gmail.com
 
 LinkedIn: [Pavel Hrushyn](https://www.linkedin.com/in/pavel-hryshyn-26028275/)
 
+
 **Dzmitry Yaromka from Tango Me**
 
 E-mail: d.yaromka@gmail.com
@@ -129,4 +130,5 @@ LinkedIn: [Dzmitry Yaromka](https://www.linkedin.com/in/dzmitry-yaromka-b0b36a19
 
 ## Foreign language
 English - B1
+
 Have experience in negotiations with customers from USA, Canada, India and Mexico.

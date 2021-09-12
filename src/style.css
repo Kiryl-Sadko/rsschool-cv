@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(226 235 235);
+  margin: 0 auto;
+  width: 1200px;
 }
 
 header {
@@ -23,6 +24,7 @@ header {
 }
 
 main {
+  background-color: rgb(226 235 235);
   display: grid;
   grid-template-columns: 67% 33%;
   padding: 30px;

@@ -1,0 +1,94 @@
+body {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+  background-color: #acc3c3;
+  padding: 3px;
+  border-bottom: 3px solid #444546;
+}
+
+.name {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.photo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+main {
+  background-color: rgb(226 235 235);
+  display: grid;
+  grid-template-columns: 67% 33%;
+  padding: 30px;
+  align-items: start;
+  justify-items: left;
+  grid-column-gap: 30px;
+}
+
+.contacts {
+  grid-column-start: 2;
+}
+
+.links {
+  grid-column-start: 2;
+}
+
+.skills {
+  grid-column-start: 2;
+}
+
+.profile {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.employment-history {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.courses {
+  grid-column-start: 1;
+  grid-row-start: 5;
+}
+
+.education {
+  grid-column-start: 1;
+  grid-row-start: 6;
+}
+
+.languages {
+  grid-column-start: 2;
+}
+
+.code-example {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 8;
+}
+
+pre {
+  border: 3px solid #444546;
+  background-color: lightgray;
+  padding: 0px 15px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #acc3c3;
+  padding: 20px 0px;
+  border: 3px solid #444546;
+  align-items: center;
+  justify-items: center;
+}

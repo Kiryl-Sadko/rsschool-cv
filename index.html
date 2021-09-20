@@ -5,23 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kiryl Sadko</title>
-    <link rel="stylesheet" href="./src/style.css" />
+    <link href="./src/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <header>
+    <header id="home">
       <div class="name">
-        <h2>Kiryl Sadko</h2>
+        <h1>Kiryl Sadko</h1>
         <h4>Java Software Engineer at IBA Group</h4>
       </div>
+
       <figure class="photo">
         <img src="./src/photo.jpg" alt="My photo" />
       </figure>
+
+      <nav>
+        <button class="menu-toggle">
+          <span class="menu-icon material-icons"> menu </span>
+          <span class="x-icon material-icons" id="x-icon"> close </span>
+        </button>
+
+        <ul class="menu">
+          <li><a href="#home" class="menu-link">Home</a></li>
+          <li><a href="#profile" class="menu-link">Profile</a></li>
+          <li>
+            <a href="#employment-history" class="menu-link"
+              >Employment History</a
+            >
+          </li>
+          <li><a href="#courses" class="menu-link">Courses</a></li>
+          <li><a href="#education" class="menu-link">Education</a></li>
+          <li><a href="#code-example" class="menu-link">Code Example</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <section class="contacts">
-        <h2>Personal info and contacts</h2>
+        <h3>Personal info and contacts</h3>
         <div class="contacts">
           <ul>
             <li><b>Country:</b> Belarus, Minsk</li>
@@ -31,7 +52,7 @@
       </section>
 
       <section class="links">
-        <h2>Links</h2>
+        <h3>Links</h3>
         <div class="links">
           <ul>
             <li>
@@ -58,7 +79,7 @@
         </div>
       </section>
 
-      <section class="profile">
+      <section class="profile" id="profile">
         <h2>Profile</h2>
         <div>
           <p>
@@ -92,7 +113,7 @@
       </section>
 
       <section class="skills">
-        <h2>Experience and skills</h2>
+        <h3>Experience and skills</h3>
         <ul>
           <li>Java</li>
           <li>Spring Boot, Spring Framework</li>
@@ -106,7 +127,7 @@
         </ul>
       </section>
 
-      <section class="employment-history">
+      <section class="employment-history" id="employment-history">
         <h2>Employment History</h2>
         <ul>
           <li class="job">
@@ -155,7 +176,7 @@
         </ul>
       </section>
 
-      <section class="courses">
+      <section class="courses" id="courses">
         <h2>Courses</h2>
         <ul>
           <li class="course">
@@ -181,7 +202,7 @@
         </ul>
       </section>
 
-      <section class="education">
+      <section class="education" id="education">
         <h2>Education</h2>
         <ul>
           <li>
@@ -193,7 +214,7 @@
       </section>
 
       <section class="languages">
-        <h2>Foreign language</h2>
+        <h3>Foreign language</h3>
         <ul>
           <li>
             <h4>English - B1 level</h4>
@@ -201,7 +222,7 @@
         </ul>
       </section>
 
-      <section class="code-example">
+      <section class="code-example" id="code-example">
         <h2>Code examples</h2>
         <pre class="code">
         @Override
@@ -236,15 +257,17 @@
         </a>
       </div>
       <div class="footer-rs-school">
-        <a href="https://rs.school/js/"></a>
-        <img
-          class="filter-rs-logo"
-          src="https://rs.school/images/rs_school_js.svg"
-          width="100"
-          alt="RS School logo"
-        />
+        <a href="https://rs.school/js/">
+          <img
+            class="filter-rs-logo"
+            src="https://rs.school/images/rs_school_js.svg"
+            width="100"
+            alt="RS School logo"
+          />
+        </a>
       </div>
       <div class="footer-year">2021</div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
